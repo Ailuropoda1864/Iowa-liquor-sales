@@ -55,7 +55,7 @@ Your work must:
 - Describe the goals of your study and criteria for success
 
 **Acquire the data**
-- Obtain the data [here](https://www.dropbox.com/sh/pf5n5sgfgiri3i8/AACkaMeL_i_WgZ00rpxOOcysa?dl=0) -- it's from [Iowa.gov](Iowa.gov), filtered and reduced a bit
+- Obtain the data [here](https://www.dropbox.com/sh/pf5n5sgfgiri3i8/AACkaMeL_i_WgZ00rpxOOcysa?dl=0) -- it's from [Iowa.gov](https://data.iowa.gov/Economy/Iowa-Liquor-Sales/m3tr-qhgy), filtered and reduced a bit
 - There is a further reduced version that is 10% of the version above [here](https://drive.google.com/file/d/0Bx2SHQGVqWaseDB4QU9ZSVFDY2M/view?usp=sharing)
 
 **Explore the data**
@@ -109,7 +109,7 @@ The dataset transactions for all stores that have a class E liquor license in th
 
 The dataset contains the same information as the data above, but just 10% of the original sample.
 
-Students interested in viewing the original, unreduced file can compare the reduced Project version with the [original full version, found here](http://marcharper.codes/Iowa_Liquor_Sales-all.zip). In fact, Iowa provides over 2gb of data stretching further back in time! This can be a useful tool to help understand the need to frame and filter data.
+Students interested in viewing the original, unreduced file can compare the reduced Project version with the [original full version](http://marcharper.codes/Iowa_Liquor_Sales-all.zip). In fact, Iowa provides over 2gb of data stretching further back in time! This can be a useful tool to help understand the need to frame and filter data.
 
 ---
 
@@ -128,7 +128,7 @@ Students interested in viewing the original, unreduced file can compare the redu
 
 2. We're using linear regression for our models. Find the best model you can, but don't fret if you cannot get a really good model. We'll learn techniques later that will help improve your analysis, such as _classifying store types_. For now, do the best you can with the tools that you have.
 
-3. Take advantage of pandas as much as possible -- the `groupby`, `summation`, and other features of DataFrames can make computing the necessary summary data much easier. This is a great time to practice what you learned in Week 2!
+3. Take advantage of pandas as much as possible -- the `groupby`, `sum`, and other features of DataFrames can make computing the necessary summary data much easier. This is a great time to practice what you learned in Week 2!
 
 4. Take care in the presentation of your results. Your audience non-technical, so explain your findings in accessible language.
 
